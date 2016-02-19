@@ -1,0 +1,79 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala, /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala, /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala, /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala, /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala, /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala, /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/hbr/workspace/playground/scala/akka-streams-example/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.5[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.5  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_9fe43ee3[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/hbr/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/hbr/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/xsbti/interface-0.13.8.jar:/home/hbr/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-interface-src/compiler-interface-src-0.13.8.jar:/home/hbr/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.5.jar:/home/hbr/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.5.jar:/home/hbr/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.3.jar:/home/hbr/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.3.jar:/home/hbr/.ivy2/cache/jline/jline/jars/jline-2.12.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_282722f2/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 550ab458, interfacing (CompilerInterface) with Scala compiler version 2.11.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/hbr/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/hbr/workspace/playground/scala/akka-streams-example/target/scala-2.11/classes:/home/hbr/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/hbr/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.3.7.jar:/home/hbr/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.3.7.jar:/home/hbr/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar:/home/hbr/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar:/home/hbr/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.7.jar:/home/hbr/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/home/hbr/.ivy2/cache/com.typesafe.akka/akka-agent_2.11/jars/akka-agent_2.11-2.3.7.jar:/home/hbr/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/hbr/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/jars/akka-stream-experimental_2.11-1.0-M4.jar:/home/hbr/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar:/home/hbr/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.RC1.jar:/home/hbr/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.11/jars/dispatch-core_2.11-0.11.2.jar:/home/hbr/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.8.10.jar:/home/hbr/.ivy2/cache/io.netty/netty/bundles/netty-3.9.2.Final.jar:/home/hbr/.ivy2/cache/net.databinder.dispatch/dispatch-json4s-native_2.11/jars/dispatch-json4s-native_2.11-0.11.2.jar:/home/hbr/workspace/tools/activator-dist-1.3.7/repository/org.json4s/json4s-core_2.11/3.2.10/jars/json4s-core_2.11.jar:/home/hbr/workspace/tools/activator-dist-1.3.7/repository/org.json4s/json4s-ast_2.11/3.2.10/jars/json4s-ast_2.11.jar:/home/hbr/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/home/hbr/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar:/home/hbr/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/home/hbr/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.10.jar:/home/hbr/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.4.2.jar:/home/hbr/workspace/playground/scala/activator-1.3.2/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/home/hbr/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.4.2.jar:/home/hbr/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.4.2.jar:/home/hbr/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.4.2.jar:/home/hbr/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.1.jar:/home/hbr/.ivy2/cache/com.google.guava/guava/bundles/guava-15.0.jar:/home/hbr/workspace/tools/activator-dist-1.3.7/repository/org.scalaz/scalaz-core_2.11/7.1.0/bundles/scalaz-core_2.11.jar:/home/hbr/workspace/tools/activator-dist-1.3.7/repository/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.2/bundles/scala-parser-combinators_2.11.jar:/home/hbr/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 20.062264086 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	mat, ec, as.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	subreddit, alpha, notify, unapply, body, wait, copy$default$2, $asInstanceOf, RedditAPI, productArity, equals, normalize, LinkListing, CommentListing, subredditsToFetch, commentDepth, asInstanceOf, run, synchronized, popularSubreddits, $isInstanceOf, useragent, toWordCount, canEqual, linksToFetch, productPrefix, notifyAll, readResolve, popularLinks, isInstanceOf, links, <init>, id, popularComments, apply, ==, commentsToFetch, clone, copy, toString, fromJson, !=, getClass, copy$default$1, Comment, ne, SimpleExample, eq, productIterator, ##, finalize, productElement, hashCode, comments, Link.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala: Set(subreddit, RedditAPI, popularSubreddits, toWordCount, popularLinks, links, <init>, popularComments, apply, Comment, comments, Link)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/package.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, package, timedFuture, wait, $asInstanceOf, tZero, printlnE, equals, asInstanceOf, synchronized, withRetry, writeTsv, withRetry$default$3, $isInstanceOf, WordCount, notifyAll, isInstanceOf, writeResults, printlnC, ==, clone, clearOutputDir, mergeWordCounts, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/RedditAPI.scala: Set(package, timedFuture, asInstanceOf, withRetry, WordCount, isInstanceOf, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/hbr/workspace/playground/scala/akka-streams-example/src/main/scala/WordCount.scala: Set(package, WordCount, writeResults, mergeWordCounts)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
